@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_10195594Video4.MainPage">
+    <!--<Summary>
+    <Createddate> 23 may. 2024</Createddate>
+    <company> Bazar Rosario </company>
+    <lastmodificationdate> 29 may. 2024</lastmodificationdate>
+    <lastmodificationdescription>
+           Ultima modificación. Agregue la documentacion XML al programa
+    </lastmodificationdescription>
+    <lastmodifierautor> Estrella Orellana</lastmodifierautor>
+</Summary>-->
+    <StackLayout Margin=" 20,35,20,20">
+        <Label Text="Video 4 Propiedades del Label"
+               HorizontalOptions="StartAndExpand"
+               TextColor="Green"
+               FontAttributes="Bold"
+               FontSize="22"
+               TextDecorations="Strikethrough"/>
+
+        <Label  FontSize="Medium" HorizontalOptions="Center">
+                    <Label.FormattedText>
+            <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programación Orientada a Objectos </Span>
+                    <Span FontAttributes="Italic" TextColor="Blue"> Es Un Paradigma De La Programación </Span>
+                    <Span TextColor="Gray" TextDecorations="Strikethrough"> Qué Nos Ayuda A Obtener Mejores Resultados</Span>
+            </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
